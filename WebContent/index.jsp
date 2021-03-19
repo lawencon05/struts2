@@ -5,14 +5,15 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<title>Struts 2 hello world example</title>
+<title>Home Page</title>
 <s:head />
 </head>
 
 <body>
-	<h1>Welcome To Struts 2!</h1>
+	<h3>Welcome to Struts2</h3>
 	<p>
-		<a href="<s:url action='profile'/>">Hello World</a>
+		<a href="<s:url action='login'/>">Login</a><br />
+		<a href="<s:url action='dashboard'/>">Dashboard</a>
 	</p>
 </body>
 </html>
